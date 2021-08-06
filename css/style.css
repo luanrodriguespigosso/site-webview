@@ -1,0 +1,401 @@
+/* Header start */
+header {
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.banner img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.banner-img {
+    position: absolute;
+    z-index: -3;
+}
+
+.banner-svg {
+    position: absolute;
+    z-index: -2;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84px;
+    padding: 8px;
+}
+
+.menu .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-left img {
+    width: 65.41px;
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+.menu-left {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a:not(.pipe) {
+    color: var(--white);
+    font-family: Manrope-SemiBold, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav .pipe {
+    color: var(--primary);
+    text-decoration: none;
+    cursor: default;
+}
+
+nav li {
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+}
+
+nav .btn-orc {
+    border-radius: 10px;
+    width: 202px;
+    height: 36px;
+    background-image: linear-gradient(var(--primary), rgba(84, 51, 204, 0.2));
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.div-banner-desc {
+    display: flex;
+    justify-content: center;
+}
+
+.div-banner-desc .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-desc {
+    width: 720px;
+    text-align: right;
+}
+
+.btn-banner-whatsapp {
+    border-radius: 10px;
+    width: 129px;
+    height: 36px;
+    background-image: linear-gradient(#2CB742, rgba(44, 183, 66, 0.2));
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.div-btn-about {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+}
+
+.div-btn-about .container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-about a {
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+}
+
+.btn-about:hover i {
+    margin-top: 10px;
+    transition: 0.6s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-about i {
+    font-size: 1.3em;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+/* Header end */
+/* About start */
+#about {
+    display: flex;
+    justify-content: center;
+}
+
+#about .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.about-desc {
+    width: 920px;
+    text-align: center;
+}
+
+.about-desc h1 {
+    color: var(--dark-purple);
+}
+
+.about-desc p {
+    margin-top: 16px;
+}
+
+.about-desc .p1-regular {
+    color: var(--grey1);
+}
+
+/* About end */
+/* Services start */
+#services {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-purple);
+    color: var(--white);
+    padding: 64px;
+}
+
+#services .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#services .desc-services {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.d1:hover .box-2 {
+    transition: 0.5s;
+    background-color: var(--light-purple);
+}
+
+.d2:hover .box-2 {
+    transition: 0.5s;
+    background-color: var(--light-purple);
+}
+
+.d3:hover .box-2 {
+    transition: 0.5s;
+    background-color: var(--light-purple);
+}
+
+#services .div-service {
+    width: 326px;
+    height: 282px;
+    position: relative;
+}
+
+.div-service .box-1 {
+    border: var(--light-purple) 1px solid;
+    border-radius: 10px;
+    width: 305px;
+    height: 262px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--dark-purple);
+    z-index: 2;
+    padding: 16px;
+}
+
+.div-service .box-2 {
+    transition: 0.5s;
+    border: var(--light-purple) 1px solid;
+    border-radius: 10px;
+    width: 305px;
+    height: 262px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* Services end */
+/*  Projects start */
+#projects {
+    display: flex;
+    justify-content: center;
+    color: var(--dark-purple);
+    padding: 128px 0;
+}
+
+#projects .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-projects {
+    width: 1137px;
+    max-width: 1137px;
+    margin-top: 16px;
+}
+
+.glide {
+    width: 1137px;
+    max-width: 1137px;
+}
+
+.project {
+    margin: 16px;
+    width: 347px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.project-1 {
+    width: 347px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+}
+
+.project-2 {
+    width: 347px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url("../img/img2.jpg");
+    background-size: cover;
+}
+
+.project-3 {
+    width: 347px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url("../img/img3.jpg");
+    background-size: cover;
+}
+
+/* Projects end  */
+/* Contact start  */
+#contact {
+    display: flex;
+    justify-content: center;
+    padding: 128px;
+    background-color: var(--dark-purple);
+}
+
+#contact .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-contact {
+    width: 600px;
+    text-align: center;
+    color: var(--white);
+}
+
+.div-form {
+    margin-top: 32px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input,
+textarea {
+    border: 0;
+    border-bottom: 1px solid var(--white);
+    margin-bottom: 16px;
+    background-color: var(--dark-purple);
+    font-size: 20px;
+    font-family: Manrope-Regular, sans-serif;
+    color: var(--white);
+    outline: none;
+}
+
+.form textarea {
+    resize: none;
+}
+
+.btn-message {
+    border-radius: 10px;
+    width: 202px;
+    height: 36px;
+    background-image: linear-gradient(var(--primary), rgba(84, 51, 204, 0.2));
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.div-btn-message {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Contact end  */
+/* Footer start  */
+#footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+}
+
+#footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark-purple);
+}
+
+/* Footer end  */

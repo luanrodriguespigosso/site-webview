@@ -1,0 +1,83 @@
+:root {
+    /* Colors */
+    --primary: #5433CC;
+    --light-purple: #8A75D5;
+    --dark-purple: #20134D;
+    --matte-purple: #322A4D;
+    --bright-purple: #5433CC;
+    --grey1: #2A292B;
+    --grey2: #6E6E6F;
+    --grey3: #9B9B9D;
+    --grey4: #B9B9B9;
+    --grey5: #E7E5E5;
+    --white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    font-family: Manrope-Regular, sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+li, ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1300px;
+    max-width: 1300px;
+}
+
+/* Default Texts  */
+.p0-regular {
+    font-size: 13px;
+    font-family: Manrope-Regular, sans-serif;
+}
+
+.p1-regular {
+    font-size: 16px;
+    font-family: Manrope-Regular, sans-serif;
+}
+
+.p2-regular {
+    font-size: 20px;
+    font-family: Manrope-Regular, sans-serif;
+}
+
+.p2-semibold {
+    font-size: 20px;
+    font-family: Manrope-SemiBold, sans-serif;
+}
+
+.h1-extrabold {
+    font-size: 72px;
+    font-family: Manrope-ExtraBold, sans-serif;
+}
+
+.h2-bold {
+    font-size: 30px;
+    font-family: Manrope-Bold, sans-serif;
+}
