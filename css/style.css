@@ -37,12 +37,26 @@ header {
     z-index: -2;
 }
 
+.div-menu {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+/*menu1*/
 .menu {
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
     height: 84px;
     padding: 8px;
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
 }
 
 .menu .container {
@@ -51,7 +65,7 @@ header {
 }
 
 .menu-left img {
-    width: 65.41px;
+    width: 65.41px
 }
 
 .menu-right {
@@ -64,6 +78,41 @@ header {
     align-items: center;
 }
 
+.logo-2{
+    position: absolute;
+    opacity: 1;
+}
+/*menu1*/
+/*menu2*/
+.menu2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84px;
+    padding: 8px;
+    visibility: hidden;
+}
+
+.menu2 .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-left2 img {
+    width: 65.41px;
+}
+
+.menu-right2 {
+    display: flex;
+    align-items: center;
+}
+
+.menu-left2 {
+    display: flex;
+    align-items: center;
+}
+
+/*menu2*/
 nav ul {
     display: flex;
 }
@@ -91,7 +140,7 @@ nav .btn-orc {
     border-radius: 10px;
     width: 202px;
     height: 36px;
-    background-image: linear-gradient(var(--primary), rgba(84, 51, 204, 0.2));
+    background-image: linear-gradient(var(--primary), rgba(32, 19, 77, 0.9));
     background-color: transparent;
     color: white;
     border: none;
@@ -157,7 +206,7 @@ nav .btn-orc {
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
     color: #fff;
-    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    font: normal 400 20px/1 'Josefin Sans', sans-serif;
     letter-spacing: .1em;
     text-decoration: none;
     transition: opacity .3s;
@@ -200,35 +249,41 @@ nav .btn-orc {
 
 @-webkit-keyframes btnscroll {
     0% {
-      -webkit-transform: translate(0, 0);
-      opacity: 0;
+        -webkit-transform: translate(0, 0);
+        opacity: 0;
     }
+
     40% {
-      opacity: 1;
+        opacity: 1;
     }
+
     80% {
-      -webkit-transform: translate(0, 20px);
-      opacity: 0;
+        -webkit-transform: translate(0, 20px);
+        opacity: 0;
     }
+
     100% {
-      opacity: 0;
+        opacity: 0;
     }
 }
 
 @keyframes btnscroll {
     0% {
-      transform: translate(0, 0);
-      opacity: 0;
+        transform: translate(0, 0);
+        opacity: 0;
     }
+
     40% {
-      opacity: 1;
+        opacity: 1;
     }
+
     80% {
-      transform: translate(0, 20px);
-      opacity: 0;
+        transform: translate(0, 20px);
+        opacity: 0;
     }
+
     100% {
-      opacity: 0;
+        opacity: 0;
     }
 }
 
@@ -249,7 +304,6 @@ nav .btn-orc {
     transition: 0.5s;
     transition-timing-function: ease-in-out;
 }*/
-
 /* Header end */
 /* About start */
 #about {
@@ -486,4 +540,12 @@ textarea {
     color: var(--dark-purple);
 }
 
+.logo-footer {
+    width: 65.41px;
+    max-width: 65.41px;
+}
+
+.logo-footer img{
+    max-width: 100%;
+}
 /* Footer end  */
