@@ -18,6 +18,7 @@ window.addEventListener("scroll", function(event) {
     } else if (scroll < 700) {
         document.getElementById("menu").style.background = "rgba(32, 19, 77, 0.0)";
         document.getElementById("menu").style.transition = "0.7s";
+        document.getElementById("menu").style.borderBottom = "0px solid rgba(32, 19, 77, 0.2)";
         document.getElementById("logo-2").style.opacity = "1";
 
         /* Muda cor dos links do menu */
