@@ -29,3 +29,17 @@ window.addEventListener("scroll", function(event) {
         document.getElementById("menuitem-5").style.color = "#FFFFFF";
     }
 });
+
+function typeWrite(elemento){
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = ' ';
+    textoArray.forEach(function(letra, i){   
+      
+    setTimeout(function(){
+        elemento.innerHTML += letra;
+    }, 80 * i)
+
+  });
+}
+const titulo = document.querySelector('.typewrite-effect');
+typeWrite(titulo);

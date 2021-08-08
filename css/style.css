@@ -163,6 +163,21 @@ nav .btn-orc {
     text-align: right;
 }
 
+.typewrite-effect::after {
+    content: '|';
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
 .btn-banner-whatsapp {
     border-radius: 10px;
     width: 129px;
