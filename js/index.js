@@ -3,7 +3,7 @@ window.addEventListener("scroll", function(event) {
     var scroll = this.scrollY;
 
     console.log(scroll);
-    if (scroll >= 700) {
+    if (scroll >= 92) {
         document.getElementById("menu").style.background = "rgba(255, 255, 255, 0.95)";
         document.getElementById("menu").style.transition = "0.7s";
         document.getElementById("menu").style.borderBottom = "1px solid rgba(32, 19, 77, 0.2)";
@@ -15,7 +15,7 @@ window.addEventListener("scroll", function(event) {
         document.getElementById("menuitem-3").style.color = "#20134D";
         document.getElementById("menuitem-4").style.color = "#20134D";
         document.getElementById("menuitem-5").style.color = "#20134D";
-    } else if (scroll < 700) {
+    } else if (scroll < 92) {
         document.getElementById("menu").style.background = "rgba(32, 19, 77, 0.0)";
         document.getElementById("menu").style.transition = "0.7s";
         document.getElementById("menu").style.borderBottom = "0px solid rgba(32, 19, 77, 0.2)";
