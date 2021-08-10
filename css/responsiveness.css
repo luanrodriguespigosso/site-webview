@@ -1,0 +1,34 @@
+@media (max-width: 1150px) {
+    .div-projects {
+        width: 758px;
+        max-width: 758px;
+    }
+
+    .glide {
+        width: 758px;
+        max-width: 758px;
+    }
+
+    #services .desc-services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #services .div-service {
+        margin-bottom: 64px;
+    }
+}
+
+@media (max-width: 910px) {
+    .div-projects {
+        width: 379px;
+        max-width: 379px;
+    }
+
+    .glide {
+        width: 379px;
+        max-width: 379px;
+    }
+}
+
+/*  379 */

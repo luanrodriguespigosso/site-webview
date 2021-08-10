@@ -499,6 +499,7 @@ nav .btn-orc {
 
 .div-form {
     margin-top: 32px;
+    max-width: 100%;
 }
 
 form {

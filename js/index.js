@@ -1,3 +1,4 @@
+/* Nav Scroll start */
 window.addEventListener("scroll", function(event) {
 
     var scroll = this.scrollY;
@@ -29,12 +30,14 @@ window.addEventListener("scroll", function(event) {
         document.getElementById("menuitem-5").style.color = "#FFFFFF";
     }
 });
+/* Nav Scroll end */
 
+/* Writing header start */
 function typeWrite(elemento){
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = ' ';
-    textoArray.forEach(function(letra, i){   
-      
+    textoArray.forEach(function(letra, i){
+
     setTimeout(function(){
         elemento.innerHTML += letra;
     }, 80 * i)
@@ -43,3 +46,4 @@ function typeWrite(elemento){
 }
 const titulo = document.querySelector('.typewrite-effect');
 typeWrite(titulo);
+/* Writing header end */
