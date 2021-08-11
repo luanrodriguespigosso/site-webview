@@ -17,6 +17,7 @@
     #services .div-service {
         margin-bottom: 64px;
     }
+    /* Responsive menu */
 }
 
 @media (max-width: 910px) {
@@ -28,6 +29,19 @@
     .glide {
         width: 379px;
         max-width: 379px;
+    }
+
+    .menu,
+    .menu2 {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+    }
+
+    .separate{
+        display: block;
     }
 }
 

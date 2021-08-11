@@ -33,17 +33,32 @@ window.addEventListener("scroll", function(event) {
 /* Nav Scroll end */
 
 /* Writing header start */
-function typeWrite(elemento){
+function typeWrite(elemento) {
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = ' ';
-    textoArray.forEach(function(letra, i){
+    textoArray.forEach(function(letra, i) {
 
-    setTimeout(function(){
-        elemento.innerHTML += letra;
-    }, 80 * i)
+        setTimeout(function() {
+            elemento.innerHTML += letra;
+        }, 80 * i)
 
-  });
+    });
 }
 const titulo = document.querySelector('.typewrite-effect');
 typeWrite(titulo);
 /* Writing header end */
+
+
+
+function fecharNav() {
+    document.getElementById("menu-mobile").style.height = "96px";
+    document.getElementById("menu-mobile").style.transition = "0.5s";
+    document.getElementById("btn-hamburguer").setAttribute('onclick', 'abrirNav()');
+}
+
+function abrirNav() {
+    document.getElementById("menu-mobile").style.height = "350px";
+    document.getElementById("menu-mobile").style.transition = "0.5s";
+    document.getElementById("btn-hamburguer").setAttribute('onclick', 'fecharNav()');
+
+}

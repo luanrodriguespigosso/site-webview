@@ -46,6 +46,46 @@ header {
     z-index: 5;
 }
 
+.separate{
+    display: none;
+}
+
+/* Menu Mobile */
+.menu-mobile {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    border-bottom: 1px solid rgba(32, 19, 77, 0.2);
+    background-color: var(--white);
+    height: 96px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.menu-mobile .container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.btn-hamburguer {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.btn-hamburguer i {
+    font-size: 64px;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+}
+
 /*menu1*/
 .menu {
     display: flex;
@@ -78,10 +118,11 @@ header {
     align-items: center;
 }
 
-.logo-2{
+.logo-2 {
     position: absolute;
     opacity: 1;
 }
+
 /*menu1*/
 /*menu2*/
 .menu2 {
@@ -173,7 +214,8 @@ nav .btn-orc {
     0%, 100% {
         opacity: 1;
     }
-    50%{
+
+    50% {
         opacity: 0;
     }
 }
@@ -560,7 +602,8 @@ textarea {
     max-width: 65.41px;
 }
 
-.logo-footer img{
+.logo-footer img {
     max-width: 100%;
 }
+
 /* Footer end  */
