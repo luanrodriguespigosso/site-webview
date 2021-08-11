@@ -11,6 +11,6 @@ const config = {
             perView: 1
         }
     }
-}
+}   
 new Glide('.glide', config).mount()
 /* Resize Glide end */
