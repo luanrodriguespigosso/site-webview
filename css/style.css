@@ -10,6 +10,15 @@ header {
     justify-content: space-between;
 }
 
+.overflow {
+    z-index: 4;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
 .banner {
     width: 100%;
     height: 100vh;
@@ -46,7 +55,7 @@ header {
     z-index: 5;
 }
 
-.separate{
+.separate {
     display: none;
 }
 
@@ -57,10 +66,11 @@ header {
     width: 100%;
     max-width: 100%;
     border-bottom: 1px solid rgba(32, 19, 77, 0.2);
-    background-color: var(--white);
-    height: 96px;
+    background-color: transparent;
+    height: 82px;
     overflow: hidden;
     transition: 1s;
+    position: absolute;
 }
 
 .menu-mobile .container {
@@ -73,10 +83,13 @@ header {
     align-self: flex-end;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .btn-hamburguer i {
     font-size: 64px;
+    color: var(--white)
 }
 
 .menu-items {
@@ -84,6 +97,34 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 16px;
+    background-color: var(--white);
+    border-radius: 0 0 20px 20px;
+    margin-top: 16px;
+}
+
+.menu-items a {
+    font-family: Manrope-SemiBold, sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    color: var(--dark-purple);
+    margin-top: 8px;
+}
+
+.menu-mobile .btn-orc {
+    border-radius: 10px;
+    width: 302px;
+    height: 50px;
+    background-image: linear-gradient(var(--primary), rgba(32, 19, 77, 0.9));
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 16px;
+}
+
+.menu-mobile img {
+    width: 65.41px
 }
 
 /*menu1*/
@@ -237,6 +278,7 @@ nav .btn-orc {
     justify-content: center;
     align-items: flex-start;
     height: 100px;
+    position: relative;
 }
 
 .div-btn-about .container {

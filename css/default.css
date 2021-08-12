@@ -24,6 +24,7 @@ body {
     width: 100%;
     max-width: 100%;
     font-family: Manrope-Regular, sans-serif;
+    position: relative;
 }
 
 html {
