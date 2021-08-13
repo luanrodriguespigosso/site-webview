@@ -8,6 +8,7 @@ window.addEventListener("scroll", function(event) {
         document.getElementById("menu").style.transition = "0.7s";
         document.getElementById("menu").style.borderBottom = "1px solid rgba(32, 19, 77, 0.2)";
         document.getElementById("logo-2").style.opacity = "0";
+        document.getElementById("logo-2.2").style.opacity = "0";
         document.getElementById("btn-hamburguer-ico").style.color = "var(--dark-purple)";
         document.getElementById("menu-mobile").style.background = "white";
 
@@ -22,6 +23,7 @@ window.addEventListener("scroll", function(event) {
         document.getElementById("menu").style.transition = "0.7s";
         document.getElementById("menu").style.borderBottom = "0px solid rgba(32, 19, 77, 0.2)";
         document.getElementById("logo-2").style.opacity = "1";
+        document.getElementById("logo-2.2").style.opacity = "1";
         document.getElementById("btn-hamburguer-ico").style.color = "white";
         document.getElementById("menu-mobile").style.background = "transparent";
 

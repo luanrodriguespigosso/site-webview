@@ -17,6 +17,7 @@
     #services .div-service {
         margin-bottom: 64px;
     }
+
     /* Responsive menu */
 }
 
@@ -40,9 +41,129 @@
         display: flex;
     }
 
-    .separate{
+    .separate {
         display: block;
     }
+}
+
+@media (max-width: 768px) {
+    .h1-extrabold {
+        font-size: 60px;
+    }
+
+    .title-contact {
+        width: 425px;
+    }
+
+    #contact {
+        padding: 32px;
+    }
+
+    #about {
+        padding: 32px;
+    }
+
+    #about .container {
+        height: 800px;
+    }
+}
+
+@media (max-width: 425px) {
+    .h1-extrabold {
+        font-size: 50px;
+    }
+
+    .h2-bold {
+        font-size: 20px;
+    }
+
+    .title-contact {
+        width: 100%;
+    }
+
+    #contact {
+        padding: 32px;
+    }
+
+    .div-projects {
+        width: 332px;
+        max-width: 332px;
+    }
+
+    .glide {
+        width: 332px;
+        max-width: 332px;
+    }
+
+    .project-1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .project-2 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .project-3 {
+        width: 300px;
+        height: 300px;
+    }
+
+    #services .div-service {
+        width: 226px;
+        height: 282px;
+    }
+
+    .div-service .box-1 {
+        width: 205px;
+        height: 262px;
+    }
+
+    .div-service .box-2 {
+        width: 205px;
+        height: 262px;
+    }
+
+    #about .container {
+        height: 1000px;
+    }
+
+    .menu-mobile .btn-orc {
+        width: 240px;
+        height: 45px;
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .div-projects {
+        width: 232px;
+        max-width: 232px;
+    }
+
+    .glide {
+        width: 232px;
+        max-width: 232px;
+    }
+
+    .project-1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .project-2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .project-3 {
+        width: 200px;
+        height: 200px;
+    }
+
 }
 
 /*  379 */
