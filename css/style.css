@@ -240,8 +240,17 @@ nav .btn-orc {
     align-items: center;
 }
 
+.devices-home {
+    flex: 1;
+}
+
+.devices-home img {
+    width: 100%;
+}
+
 .banner-desc {
-    width: 720px;
+    flex: 2;
+    /*width: 720px;*//* Após por flex:2; a largura não tem efeito */
     text-align: right;
 }
 
