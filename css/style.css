@@ -659,3 +659,17 @@ textarea {
 }
 
 /* Footer end  */
+
+/* Btn whatsapp */
+.div-btn-whatsapp {
+    width: 77px;
+    height: 113px;
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+}
+
+.div-btn-whatsapp img {
+    max-width: 100%;
+    max-height: 100%;
+}
