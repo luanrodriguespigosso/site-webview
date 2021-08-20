@@ -44,6 +44,10 @@
     .separate {
         display: block;
     }
+
+    .devices-home {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
