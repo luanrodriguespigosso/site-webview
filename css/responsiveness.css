@@ -17,8 +17,10 @@
     #services .div-service {
         margin-bottom: 64px;
     }
-
-    /* Responsive menu */
+    
+    .devices-home {
+        display: none;
+    }
 }
 
 @media (max-width: 910px) {
@@ -43,10 +45,6 @@
 
     .separate {
         display: block;
-    }
-
-    .devices-home {
-        display: none;
     }
 }
 
