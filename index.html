@@ -246,7 +246,8 @@
 					<form class="form" action="index.html" method="post">
 						<input type="text" name="name" placeholder="Nome Completo" maxlength="50">
 						<input type="email" name="email" placeholder="Email" maxlength="40">
-						<input type="tel" name="tel" placeholder="Telefone">
+						<input type="tel" name="tel" placeholder="Telefone" placeholder="(00) 00000-0000" maxlength="15"
+                        minlength="14" id="tel">
 						<textarea name="message" rows="8" cols="80" placeholder="Mensagem" maxlength="400"></textarea>
 						<div class="div-btn-message">
 							<button class="btn-message p2-semibold">Enviar Mensagem</button>
@@ -278,6 +279,7 @@
 	<script src="js/aos.js"></script>
 	<script src="css/glide-3.4.1/dist/glide.min.js"></script>
 	<script src="js/glide.js"></script>
+	<script src="js/form.js"></script>
 	<script src="js/index.js"></script>
 
 </body>
