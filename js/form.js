@@ -1,3 +1,10 @@
+/* Start valida email*/
+function validaEmail (email) {
+    var validate = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+    return validate(email)
+}
+/* End valida email*/
+
 /* Start máscara para telefone */
 function mascara(o, f) {
     v_obj = o
