@@ -1,11 +1,11 @@
 /* Start valida email*/
-function validaEmail (email) {
+function validaEmail(email) {
     var validate = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
     return validate(email)
 }
 /* End valida email*/
 
-/* Start máscara para telefone */
+/* Start mask for phone */
 function mascara(o, f) {
     v_obj = o
     v_fun = f
@@ -31,4 +31,4 @@ window.onload = function() {
         mascara(this, mtel);
     }
 }
-/* End máscara para telefone */
+/* End mask for phone */
