@@ -550,7 +550,7 @@ nav .btn-orc {
     width: 347px;
     height: 300px;
     border-radius: 10px;
-    background-image: url("../img/img1.jpg");
+    background-image: url("../img/projects/img-loading.png");
     background-size: cover;
 }
 
@@ -558,7 +558,7 @@ nav .btn-orc {
     width: 347px;
     height: 300px;
     border-radius: 10px;
-    background-image: url("../img/img2.jpg");
+    background-image: url("../img/projects/img-loading.png");
     background-size: cover;
 }
 
@@ -566,7 +566,7 @@ nav .btn-orc {
     width: 347px;
     height: 300px;
     border-radius: 10px;
-    background-image: url("../img/img3.jpg");
+    background-image: url("../img/projects/img-loading.png");
     background-size: cover;
 }
 
