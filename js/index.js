@@ -9,7 +9,9 @@ window.addEventListener("scroll", function(event) {
         document.getElementById("menu").style.borderBottom = "1px solid rgba(32, 19, 77, 0.2)";
         document.getElementById("logo-2").style.opacity = "0";
         document.getElementById("logo-2.2").style.opacity = "0";
-        document.getElementById("btn-hamburguer-ico").style.color = "var(--dark-purple)";
+        document.getElementById("i1").style.backgroundColor = "var(--dark-purple)";
+        document.getElementById("i2").style.backgroundColor = "var(--dark-purple)";
+        document.getElementById("i3").style.backgroundColor = "var(--dark-purple)";
         document.getElementById("menu-mobile").style.background = "white";
 
         /* Muda cor dos links do menu */
@@ -24,7 +26,9 @@ window.addEventListener("scroll", function(event) {
         document.getElementById("menu").style.borderBottom = "0px solid rgba(32, 19, 77, 0.2)";
         document.getElementById("logo-2").style.opacity = "1";
         document.getElementById("logo-2.2").style.opacity = "1";
-        document.getElementById("btn-hamburguer-ico").style.color = "white";
+        document.getElementById("i1").style.backgroundColor = "white";
+        document.getElementById("i2").style.backgroundColor = "white";
+        document.getElementById("i3").style.backgroundColor = "white";
         document.getElementById("menu-mobile").style.background = "transparent";
 
         /* Muda cor dos links do menu */
@@ -64,31 +68,79 @@ function closeNav() {
     var scroll = this.scrollY;
 
     if (scroll >= 92) {
-        document.getElementById("btn-hamburguer-ico").style.color = "var(--dark-purple)";
+        document.getElementById("i1").style.backgroundColor = "var(--dark-purple)";
+        document.getElementById("i2").style.backgroundColor = "var(--dark-purple)";
+        document.getElementById("i3").style.backgroundColor = "var(--dark-purple)";
         document.getElementById("menu-mobile").style.background = "white";
 
     } else if (scroll < 92) {
-        document.getElementById("btn-hamburguer-ico").style.color = "white";
+        document.getElementById("i1").style.backgroundColor = "white";
+        document.getElementById("i2").style.backgroundColor = "white";
+        document.getElementById("i3").style.backgroundColor = "white";
         document.getElementById("menu-mobile").style.background = "transparent";
     }
+
+    /* animation hamburguer */
+    document.getElementById("i1").classList.add("anime-i1-2-remove");
+    document.getElementById("i3").classList.add("anime-i3-2-remove");
+
+    setTimeout(function() {
+        document.getElementById("i2").style.opacity = 1;
+        document.getElementById("i1").classList.add("anime-i1-remove");
+        document.getElementById("i2").classList.add("anime-i2-remove");
+        document.getElementById("i3").classList.add("anime-i3-remove");
+    }, 500)
+
+    setTimeout(function() {
+        document.getElementById("i1").classList.remove("anime-i1");
+        document.getElementById("i2").classList.remove("anime-i2");
+        document.getElementById("i3").classList.remove("anime-i3");
+        document.getElementById("i1").classList.remove("anime-i1-2");
+        document.getElementById("i3").classList.remove("anime-i3-2");
+        document.getElementById("i1").classList.remove("anime-i1-remove");
+        document.getElementById("i2").classList.remove("anime-i2-remove");
+        document.getElementById("i3").classList.remove("anime-i3-remove");
+        document.getElementById("i1").classList.remove("anime-i1-2-remove");
+        document.getElementById("i3").classList.remove("anime-i3-2-remove");
+    }, 850)
 }
 
 function openNav() {
+    setTimeout(function() {
     document.getElementById("menu-mobile").style.height = "500px";
-    document.getElementById("menu-mobile").style.transition = "0.5s";
+    document.getElementById("menu-mobile").style.transition = "1s";
     document.getElementById("btn-hamburguer").setAttribute('onclick', 'closeNav()');
     document.getElementById("overflow").style.display = "block";
+    }, 500)
 
     var scroll = this.scrollY;
 
     if (scroll >= 92) {
-        document.getElementById("btn-hamburguer-ico").style.color = "var(--dark-purple)";
+        document.getElementById("i1").style.backgroundColor = "var(--dark-purple)";
+        document.getElementById("i2").style.backgroundColor = "var(--dark-purple)";
+        document.getElementById("i3").style.backgroundColor = "var(--dark-purple)";
         document.getElementById("menu-mobile").style.background = "white";
 
     } else if (scroll < 92) {
-        document.getElementById("btn-hamburguer-ico").style.color = "white";
+        document.getElementById("i1").style.backgroundColor = "white";
+        document.getElementById("i2").style.backgroundColor = "white";
+        document.getElementById("i3").style.backgroundColor = "white";
         document.getElementById("menu-mobile").style.background = "transparent";
     }
+
+    /* animation hamburguer */
+    setTimeout(function() {
+        document.getElementById("i1").classList.add("anime-i1");
+        document.getElementById("i2").classList.add("anime-i2");
+        document.getElementById("i3").classList.add("anime-i3");
+
+
+        setTimeout(function() {
+            document.getElementById("i2").style.opacity = 0;
+            document.getElementById("i1").classList.add("anime-i1-2");
+            document.getElementById("i3").classList.add("anime-i3-2");
+        }, 500)
+    }, 600)
 
 }
 /* end Action open and close mobile button */

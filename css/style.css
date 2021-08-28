@@ -87,11 +87,6 @@ header {
     width: 100%;
 }
 
-.btn-hamburguer i {
-    font-size: 64px;
-    color: var(--white)
-}
-
 .menu-items {
     display: flex;
     align-items: center;
@@ -412,6 +407,195 @@ nav .btn-orc {
     transition: 0.5s;
     transition-timing-function: ease-in-out;
 }*/
+
+.btn--hamburguer {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    max-width: 40px;
+    max-height: 30px;
+    cursor: pointer;
+}
+
+.hamburguer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburguer .h-item {
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+
+/*  add animation */
+.anime-i1 {
+    animation-name: animation1;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: calc(50% - 2.5px);
+}
+
+@keyframes animation1 {
+    from {
+        position: absolute;
+        top: 0px;
+    }
+
+    to {
+        position: absolute;
+        top: calc(50% - 2.5px);
+    }
+}
+
+.anime-i1-2 {
+    animation-name: animation1-2;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    transform: rotate(405deg);
+}
+
+@keyframes animation1-2 {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(405deg);
+    }
+}
+
+.anime-i2 {
+    position: absolute;
+    top: calc(50% - 2.5px);
+}
+
+.anime-i3 {
+    animation-name: animation3;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    bottom: calc(50% - 2.5px);
+}
+
+@keyframes animation3 {
+    from {
+        position: absolute;
+        bottom: 0px;
+    }
+
+    to {
+        position: absolute;
+        bottom: calc(50% - 2.5px);
+    }
+}
+
+.anime-i3-2 {
+    animation-name: animation3-2;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    transform: rotate(315deg);
+}
+
+@keyframes animation3-2 {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(315deg);
+    }
+}
+
+/*  remove animation */
+.anime-i1-remove {
+    animation-name: animation1-remove;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+}
+
+@keyframes animation1-remove {
+    from {
+        position: absolute;
+        top: calc(50% - 2.5px);
+    }
+
+    to {
+        position: absolute;
+        top: 4px;
+    }
+}
+
+.anime-i1-2-remove {
+    animation-name: animation1-2-remove;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    transform: rotate(0);
+}
+
+@keyframes animation1-2-remove {
+    from {
+        transform: rotate(405deg);
+    }
+
+    to {
+        transform: rotate(0);
+    }
+}
+
+.anime-i2-remove {
+    position: absolute;
+    top: calc(50% - 2.5px);
+}
+
+.anime-i3-remove {
+    animation-name: animation3-remove;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+@keyframes animation3-remove {
+    from {
+        position: absolute;
+        bottom: calc(50% - 2.5px);
+    }
+
+    to {
+        position: absolute;
+        bottom: 0px;
+    }
+}
+
+.anime-i3-2-remove {
+    animation-name: animation3-2-remove;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    transform: rotate(0);
+}
+
+@keyframes animation3-2-remove {
+    from {
+        transform: rotate(315deg);
+    }
+
+    to {
+        transform: rotate(0);
+    }
+}
+
+
 /* Header end */
 /* About start */
 #about {
