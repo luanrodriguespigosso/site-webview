@@ -846,11 +846,11 @@ textarea {
 
 /* Btn whatsapp */
 .div-btn-whatsapp {
-    width: 77px;
-    height: 113px;
+    width: 60px;
+    height: 60px;
     position: fixed;
     right: 20px;
-    bottom: 0px;
+    bottom: 20px;
 }
 
 .div-btn-whatsapp img {
