@@ -817,6 +817,24 @@ textarea {
     justify-content: flex-end;
 }
 
+.div-politica {
+    display: flex;
+    color: var(--white);
+}
+
+.div-politica p {
+    margin-left: 16px;
+}
+
+.div-politica a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.div-politica a:hover {
+    text-decoration: underline;
+}
+
 /* Contact end  */
 /* Footer start  */
 #footer {
@@ -840,6 +858,16 @@ textarea {
 
 .logo-footer img {
     max-width: 100%;
+}
+
+
+.politica-privacidade a {
+    text-decoration: none;
+    color: var(--dark-purple);
+}
+
+.politica-privacidade a:hover {
+    text-decoration: underline;
 }
 
 /* Footer end  */
