@@ -62,29 +62,35 @@ p {
 .p0-regular {
     font-size: 13px;
     font-family: Manrope-Regular, sans-serif;
+    font-display: swap;
 }
 
 .p1-regular {
     font-size: 16px;
     font-family: Manrope-Regular, sans-serif;
+    font-display: swap;
 }
 
 .p2-regular {
     font-size: 20px;
     font-family: Manrope-Regular, sans-serif;
+    font-display: swap;
 }
 
 .p2-semibold {
     font-size: 20px;
     font-family: Manrope-SemiBold, sans-serif;
+    font-display: swap;
 }
 
 .h1-extrabold {
     font-size: 72px;
     font-family: Manrope-ExtraBold, sans-serif;
+    font-display: swap;
 }
 
 .h2-bold {
     font-size: 30px;
     font-family: Manrope-Bold, sans-serif;
+    font-display: swap;
 }
