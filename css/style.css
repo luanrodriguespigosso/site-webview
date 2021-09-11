@@ -773,6 +773,10 @@ nav .btn-orc {
     color: var(--white);
 }
 
+.title-contact h1 {
+    margin-bottom: 16px;
+}
+
 .div-form {
     margin-top: 32px;
     max-width: 100%;
