@@ -245,7 +245,8 @@ nav .btn-orc {
 
 .banner-desc {
     flex: 2;
-    /*width: 720px;*//* Após por flex:2; a largura não tem efeito */
+    /*width: 720px;*/
+    /* Após por flex:2; a largura não tem efeito */
     text-align: right;
 }
 
@@ -312,7 +313,7 @@ nav .btn-orc {
     letter-spacing: .1em;
     text-decoration: none;
     transition: opacity .3s;
-    margin-left:-31px;
+    margin-left: -31px;
 }
 
 .demo a:hover {
@@ -407,7 +408,6 @@ nav .btn-orc {
     transition: 0.5s;
     transition-timing-function: ease-in-out;
 }*/
-
 .btn--hamburguer {
     position: relative;
     width: 40px;
@@ -431,7 +431,6 @@ nav .btn-orc {
     border-radius: 2px;
     background-color: white;
 }
-
 
 /*  add animation */
 .anime-i1 {
@@ -594,7 +593,6 @@ nav .btn-orc {
         transform: rotate(0);
     }
 }
-
 
 /* Header end */
 /* About start */
@@ -836,6 +834,10 @@ textarea {
     text-decoration: underline;
 }
 
+#check-politica {
+    transform: scale(1.5);
+}
+
 /* Contact end  */
 /* Footer start  */
 #footer {
@@ -861,7 +863,6 @@ textarea {
     max-width: 100%;
 }
 
-
 .politica-privacidade a {
     text-decoration: none;
     color: var(--dark-purple);
@@ -872,7 +873,6 @@ textarea {
 }
 
 /* Footer end  */
-
 /* Btn whatsapp */
 .div-btn-whatsapp {
     width: 60px;
