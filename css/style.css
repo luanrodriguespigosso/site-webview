@@ -734,6 +734,7 @@ nav .btn-orc {
     border-radius: 10px;
     background-image: url("../img/projects/img-loading.webp");
     background-size: cover;
+    background-position: center;
 }
 
 .project-2 {
@@ -742,6 +743,7 @@ nav .btn-orc {
     border-radius: 10px;
     background-image: url("../img/projects/img-loading.webp");
     background-size: cover;
+    background-position: center;
 }
 
 .project-3 {
@@ -750,6 +752,7 @@ nav .btn-orc {
     border-radius: 10px;
     background-image: url("../img/projects/img-loading.webp");
     background-size: cover;
+    background-position: center;
 }
 
 /* Projects end  */

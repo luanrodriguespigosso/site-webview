@@ -5,13 +5,9 @@ const config = {
     autoplay: 3500,
     breakpoints: {
         1150: {
-            type: 'carousel',
-            autoplay: 3500,
             perView: 2
         },
         910: {
-            type: 'carousel',
-            autoplay: 3500,
             perView: 1
         }
     }
