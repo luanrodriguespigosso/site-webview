@@ -46,6 +46,16 @@
     .separate {
         display: block;
     }
+
+    #services {
+        padding-top: 128px;
+        padding-bottom: 128px;
+    }
+
+    #contact {
+        padding-top: 128px;
+        padding-bottom: 128px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -58,11 +68,13 @@
     }
 
     #contact {
-        padding: 32px;
+        padding-right: 32px;
+        padding-left: 32px;
     }
 
     #about {
-        padding: 32px;
+        padding-right: 32px;
+        padding-left: 32px;
     }
 
     #about .container {
@@ -89,7 +101,8 @@
     }
 
     #contact {
-        padding: 32px;
+        padding-right: 32px;
+        padding-left: 32px;
     }
 
     .div-projects {
