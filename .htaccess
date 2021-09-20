@@ -1,15 +1,15 @@
 ## Protegendo arquivo .htaccess
-<files ~ "^.*\.([Hh][Tt][Aa])">
-order allow,deny
-deny from all
-satisfy all
-</files>
+## <files ~ "^.*\.([Hh][Tt][Aa])">
+## order allow,deny
+## deny from all
+## satisfy all
+## </files>
 
 ## Impedindo a listagem de qualquer diretório
 Options -Indexes
 
 ## Removendo extensões de arquivos das URLs
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html
+## RewriteEngine on
+## RewriteCond %{REQUEST_FILENAME} !-d
+## RewriteCond %{REQUEST_FILENAME}\.html -f
+## RewriteRule ^(.*)$ $1.html
