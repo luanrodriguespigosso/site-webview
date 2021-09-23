@@ -1,34 +1,41 @@
 @font-face{
 	font-family: Manrope-ExtraLight;
+	font-display: swap;
 	src: url(../fonts/Manrope-ExtraLight.woff2);
 }
 
 @font-face{
 	font-family: Manrope-Light;
+	font-display: swap;
 	src: url(../fonts/Manrope-Light.woff2);
 }
 
 @font-face{
 	font-family: Manrope-Medium;
+	font-display: swap;
 	src: url(../fonts/Manrope-Medium.woff2);
 }
 
 @font-face{
 	font-family: Manrope-Regular;
+	font-display: swap;
 	src: url(../fonts/Manrope-Regular.woff2);
 }
 
 @font-face{
 	font-family: Manrope-SemiBold;
+	font-display: swap;
 	src: url(../fonts/Manrope-SemiBold.woff2);
 }
 
 @font-face{
 	font-family: Manrope-Bold;
+	font-display: swap;
 	src: url(../fonts/Manrope-Bold.woff2);
 }
 
 @font-face{
 	font-family: Manrope-ExtraBold;
+	font-display: swap;
 	src: url(../fonts/Manrope-ExtraBold.woff2);
 }
