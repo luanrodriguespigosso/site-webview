@@ -144,7 +144,8 @@ header {
     width: 65.41px
 }
 
-.menu-right {
+.menu-right,
+.menu-center {
     display: flex;
     align-items: center;
 }
