@@ -20,6 +20,7 @@ window.addEventListener("scroll", function(event) {
         document.getElementById("menuitem-3").style.color = "#20134D";
         document.getElementById("menuitem-4").style.color = "#20134D";
         document.getElementById("menuitem-5").style.color = "#20134D";
+        document.getElementById("menuitem-6").style.color = "#20134D";
     } else if (scroll < 92) {
         document.getElementById("menu").style.background = "rgba(32, 19, 77, 0.0)";
         document.getElementById("menu").style.transition = "0.7s";
@@ -37,6 +38,7 @@ window.addEventListener("scroll", function(event) {
         document.getElementById("menuitem-3").style.color = "#FFFFFF";
         document.getElementById("menuitem-4").style.color = "#FFFFFF";
         document.getElementById("menuitem-5").style.color = "#FFFFFF";
+        document.getElementById("menuitem-6").style.color = "#FFFFFF";
     }
 });
 /* Nav Scroll end */
