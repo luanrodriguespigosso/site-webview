@@ -247,7 +247,7 @@ nav li {
     flex: 2;
     /*width: 720px;*/
     /* Após por flex:2; a largura não tem efeito */
-    text-align: right;
+    text-align: left;
 }
 
 .typewrite-effect::after {
