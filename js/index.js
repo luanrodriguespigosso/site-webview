@@ -144,5 +144,3 @@ function openNav() {
 
 }
 /* end Action open and close mobile button */
-
-AOS.init();
