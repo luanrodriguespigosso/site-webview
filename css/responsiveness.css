@@ -59,8 +59,25 @@
 }
 
 @media (max-width: 768px) {
+    .banner-desc {
+        text-align: center;
+    }
+
     .h1-extrabold {
-        font-size: 60px;
+        font-size: 46px;
+        letter-spacing: -1.7px;
+    }
+
+    .banner-desc p {
+        padding: 1.7rem;
+    }
+
+    .banner-desc button {
+        display: none;
+    }
+
+    .p2-regular {
+        font-size: 1.1rem;
     }
 
     .title-contact {
