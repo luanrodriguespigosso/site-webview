@@ -665,25 +665,57 @@ nav li {
 }
 
 #services .div-service {
-    width: 326px;
-    height: 282px;
+    width: 405px;
+    height: 400px;
     position: relative;
+    box-shadow: 0 0 2rem rgb(0 0 0 / 0%);
+    transition: ease-in-out all .4s;
+}
+
+#services .div-service:hover {
+    transform: scale(1.05);
+    transition: ease-in-out all .2s;
+    box-shadow: 0 0 2rem rgb(0 0 0 / 20%);
+    border-radius: 1rem;
 }
 
 .div-service .box-1 {
-    border: var(--light-purple) 1px solid;
-    border-radius: 10px;
-    width: 305px;
-    height: 262px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    /*border: var(--light-purple) 1px solid;
+    border-radius: 10px;*/
+    width: 405px;
+    /*height: 300px;*/
     position: absolute;
-    left: 0;
-    top: 0;
-    background-color: var(--dark-purple);
-    z-index: 2;
-    padding: 16px;
+    /*left: 0;
+    top: 0;*/
+    /*background-color: var(--dark-purple);
+    z-index: 2;*/
+    padding: 1rem;
 }
 
-.div-service .box-2 {
+figure.image-box-wrapper {
+    flex: 1;
+}
+
+img.size-icon-service {
+    width: 150px;
+    height: 150px;
+}
+
+div.box-title {
+    flex: 2;
+    text-align: center;
+}
+
+.box-title p {
+    line-height: 1.7em;
+}
+
+/*.div-service .box-2 {
     transition: 0.5s;
     border: var(--light-purple) 1px solid;
     border-radius: 10px;
@@ -692,7 +724,7 @@ nav li {
     position: absolute;
     right: 0;
     bottom: 0;
-}
+}*/
 
 /* Services end */
 /*  Projects start */
