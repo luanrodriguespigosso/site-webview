@@ -146,28 +146,19 @@
         width: 300px;
         height: 300px;
     }
-/*
-    #services .div-service {
-        width: 226px;
-        height: 282px;
-    }
-*/
+
     #services .desc-services {
         width: auto;
     }
+    
     #services .div-service {
         height: 380px;
-        margin-bottom: 0;
     }
+
     .div-service .box-1 {
         width: auto;
     }
-/*
-    .div-service .box-2 {
-        width: 205px;
-        height: 262px;
-    }
-*/
+
     #about .container {
         height: 1000px;
     }
