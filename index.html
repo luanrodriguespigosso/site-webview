@@ -67,9 +67,9 @@
 		<div class="menu-mobile" id="menu-mobile">
 			<div class="container">
 				<div class="btn-hamburguer">
-					<img src="img/Logo-roxo.svg" alt="Logo Webview" class="logo-1">
-					<img src="img/Logo-branco.svg" alt="Logo Webview" class="logo-2" id="logo-2.2">
-					<a href="javascript:void(0)" onclick="openNav()" id="btn-hamburguer">
+					<img src="img/Logo-roxo.svg" alt="Logo Webview na cor roxo" class="logo-1">
+					<img src="img/Logo-branco.svg" alt="Logo Webview na cor branco" class="logo-2" id="logo-2.2">
+					<a href="javascript:void(0)" onclick="openNav()" id="btn-hamburguer" aria-label="Botão menu">
 						<div class="btn--hamburguer" onclick="abrirNav()" id="btn-hamburguer-ico">
 					        <div class="hamburguer" id="hamburguer">
 					            <div class="h-item i1" id="i1">
@@ -95,8 +95,8 @@
 		<div class="menu" id="menu">
 			<div class="container">
 				<div class="menu-left">
-					<img src="img/Logo-roxo.svg" alt="Logo Webview" class="logo-1">
-					<img src="img/Logo-branco.svg" alt="Logo Webview" class="logo-2" id="logo-2">
+					<img src="img/Logo-roxo.svg" alt="Logo Webview na cor roxo" class="logo-1">
+					<img src="img/Logo-branco.svg" alt="Logo Webview na cor branco" class="logo-2" id="logo-2">
 				</div>
 				<div class="menu-right">
 					<nav>
@@ -124,8 +124,8 @@
 
 	<header id="home">
 		<div class="banner">
-			<img src="img/banner-img.webp" class="banner-img" alt="Notebook imagem de fundo">
-			<img src="img/banner.svg" class="banner-svg" alt="Fundo azul imagem de fundo">
+			<img src="img/banner-img.webp" class="banner-img" alt="Teclado de notebook">
+			<img src="img/banner.svg" class="banner-svg" alt="Fundo azul">
 		</div>
 		<div class="menu2">
 			<div class="container">
@@ -161,7 +161,7 @@
 					<button class="btn-banner-whatsapp p2-semibold" onclick="window.open('https://api.whatsapp.com/send?phone=5548999344157&text=Olá!%20', '_blank')">Whatsapp</button>
 				</div>
 				<div class="devices-home">
-					<img src="img/desktop-Laptop-Mobile.svg" alt="iMac,laptop,mobile">
+					<img src="img/desktop-Laptop-Mobile.svg" alt="Monitor, notebook e celular um na frente do outro">
 				</div>
 			</div>
 		</div>
@@ -216,7 +216,7 @@
 					<div class="div-service d2">
 						<div class="box-1">
 							<figure class="image-box-wrapper">
-								<img src="./img/icon-email-address.webp" class="size-icon-service" alt="Carta aberta com um arroba entrando">
+								<img src="./img/icon-email-address.webp" class="size-icon-service" alt="Carta aberta com um arroba">
 							</figure>
 							<div class="box-title">
 								<h4 class="h4-semibold">Email corporativo</h4>
@@ -295,8 +295,8 @@
                         minlength="14" id="tel" required>
 						<textarea name="message" required rows="8" cols="80" placeholder="Mensagem" maxlength="400"></textarea>
 						<div class="div-politica">
-							<input type="checkbox" name="check-politica" id="check-politica" required>
-							<p class="p0-regular">Para continuar, você precisa selecionar e concordar com a <a href="#">Política de Privacidade</a> e Condições de Uso.</p>
+							<input id="check-politica politica-check" type="checkbox" name="check-politica" required>
+							<label for="politica-check"><p class="p0-regular">Para continuar, você precisa concordar com a <a href="#">Política de Privacidade</a></p></label>
 						</div>
 						<div class="div-btn-message">
 							<button class="btn-message p2-semibold" type="submit">Enviar Mensagem</button>
@@ -317,7 +317,7 @@
 	<footer id="footer">
 		<div class="container">
 			<div class="logo-footer">
-				<img src="img/Logo-roxo.svg" loading="lazy" alt="Logo Webview">
+				<img src="img/Logo-roxo.svg" loading="lazy" alt="Logo Webview na cor roxo">
 			</div>
 			<div class="desc-footer">
 				<p class="p0-regular">2021 - 2021 @webview - Todos os direitos reservados.</p>
