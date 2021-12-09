@@ -152,7 +152,8 @@
     }
     
     #services .div-service {
-        height: 380px;
+        width: 350px;
+        height: 400px;
     }
 
     .div-service .box-1 {
@@ -171,6 +172,11 @@
 }
 
 @media (max-width: 320px) {
+    #services .div-service {
+        width: 100px;
+        height: 400px;
+    }
+
     .div-projects {
         width: 232px;
         max-width: 232px;

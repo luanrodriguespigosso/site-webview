@@ -685,15 +685,7 @@ nav li {
     align-content: center;
     justify-content: center;
     align-items: center;
-    /*border: var(--light-purple) 1px solid;
-    border-radius: 10px;
-    width: 405px;
-    height: 300px;*/
     position: absolute;
-    /*left: 0;
-    top: 0;*/
-    /*background-color: var(--dark-purple);
-    z-index: 2;*/
     padding: 1rem;
 }
 
