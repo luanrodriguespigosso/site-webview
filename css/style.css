@@ -874,13 +874,9 @@ textarea {
     color: var(--dark-purple);
 }
 
-.logo-footer {
+.logo-footer img {
     width: 65px;
     height: 65px;
-}
-
-.logo-footer img {
-    max-width: 100%;
 }
 
 .politica-privacidade a {
