@@ -4,18 +4,30 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $tel = $_POST['tel'];
 $messages = $_POST['message'];
+    
+ini_set( 'display_errors', 1 );
+error_reporting( E_ALL );
+$subject = "Email do Site - ".$name;
+$to = "webviewtech@gmail.com";
+$message = "
+<html>
+<body>
+<h3>Olá, me chamo $name.</h3>
+<br>
+<p>$messages</p>
+<br>
+<p>Email: $email</p>
+<p>Telefone: $tel</p>
+</body>
+</html>
+";
+        
+$headers[] = 'MIME-Version: 1.0';
+$headers[] = 'Content-type: text/html; charset=iso-8859-1';
+$headers[] = 'From: '.$name.' <'.$email.'>';
+        
+mail($to,$subject,$message, implode("\r\n", $headers));
 
-$mail->Body = '<strong>Nome:  </strong>'.$name.'<br>  <strong>Mensagem: </strong>'.$messages.'<br>  <strong>Email: </strong>'.$email;
-$mail->AltBody = $name.' --- '.$messages.' --- '.$email;
-
-    ini_set( 'display_errors', 1 );
-    error_reporting( E_ALL );
-    $from = "smtp.hostinger.com.br";
-    $subject = "Email do Site - ".$name;
-		$to = "webviewtech@gmail.com";
-    $message = 'Nome: '.$name.' --- Menssagem: '.$messages.' --- Email: '.$email;
-    $headers = "From:" . $from;
-    mail($to,$subject,$message, $headers);
 
 header('Location: ../index.html');
 
